@@ -1,0 +1,28 @@
+{
+    "name": "codelines/laravel-itexmo",
+    "description": "Laravel Package for itexmo notification driver",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Codelines\\LaravelItexmo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Teejay Tamani",
+            "email": "tjaytamani@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^10.17",
+        "illuminate/notifications": "^10.17",
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codelines\\LaravelItexmo\\ItexMoServiceProvider"
+            ]
+        }
+    }
+}
